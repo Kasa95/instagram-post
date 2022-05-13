@@ -37,18 +37,25 @@ div.post {
 .name-location h1 {
     font-size: 8pt;
     font-weight: bolder;
+    margin-top: 2px;
+    margin-bottom: 2px
 }
 
 .name-location h2 {
     font-size: 8pt;
     font-weight: 400;
+    margin-top: 2px;
+    margin-bottom: 2px
 }
 
 .profile-pic {
-    height:100%;
     border-radius: 100%;
     margin-left: 5px;
     margin-right: 10px;
+}
+img.profile-pic {
+    border-radius: 100%;
+    padding: 5px;
 }
 
 .name-location {
@@ -61,10 +68,9 @@ div.post {
 }
 
 
-}
 .right-side-header img {
-    height: inherit;
-    padding: 10%;
+    height: 55%;
+    padding: 11px;
 }
 
 .post-image img  {
@@ -82,19 +88,22 @@ div.buttons {
     height: inherit;
     display: flex;
     justify-content: space-evenly;
+    padding-top: 8px;
 }
 .right {
     width: 70%;
     display: flex;
     height: inherit;
     justify-content: flex-end;
+    padding-top: 8px;
+    padding-right: 10px;
 }
 
 .right img {
-    height: 100%;
+    height: 70%;
 }
 .left img {
-    height: 100%;
+    height: 70%;
     
 }
 
@@ -108,4 +117,9 @@ div.buttons {
     font-size: 10pt;
     padding-left: 2%;
     padding-right: 2%;
+    padding-bottom: 10px;
+}
+
+span.username {
+    font-weight: bold;
 }
